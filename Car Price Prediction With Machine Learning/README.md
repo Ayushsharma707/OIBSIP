@@ -1,5 +1,7 @@
-# Iris Flower Classification      
-![Description](https://repository-images.githubusercontent.com/286819592/b82e14cf-3c85-4f91-84c0-bea095c353a8)   
+# Task 2: Car Price Prediction with Machine Learning     
+![Description](https://repository-images.githubusercontent.com/286819592/b82e14cf-3c85-4f91-84c0-bea095c353a8)  
+
+**Dataset: [Here](https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars)** 
 
 ## Project Overview:
 In the automotive industry, determining the price of a car involves various factors, such as brand reputation, car features, horsepower, and fuel efficiency. Car price prediction is a crucial application of machine learning. This project is designed to help you learn how to build a model for car price prediction.
@@ -35,19 +37,24 @@ In the automotive industry, determining the price of a car involves various fact
 6. **Model Deployment**:
    - Saved the trained model for future predictions.
    - Created a simple web application using Flask to allow users to input car details and get price predictions.
-## Model Performance Comparison  
 
-| MODEL                  | Accuracy Score | CV Score  | Difference |
-|------------------------|----------------|-----------|------------|
-| Logistic Regression    | 1.000000       | 0.860000  | 0.140000   |
-| Decision Tree          | 1.000000       | 1.000000  | 0.000000   |
-| Random Forest          | 1.000000       | 0.993333  | 0.006667   |
-| SVC                    | 0.966667       | 0.946667  | 0.020000   |
-| Gaussian Naive Bayes   | 1.000000       | 0.991667  | 0.008333   |
-| KNeighbors Classifier  | 0.966667       | 0.946667  | 0.020000   |
+### Model Performance Comparison   
+
+| MODEL                  | r²            | CV Score      | MAE          | MSE          |
+|------------------------|---------------|---------------|--------------|--------------|
+| Linear                 | 1.000000e+00  | 1.000000e+00  | 1.277427e-14 | 2.796657e-28 |
+| Random Forest          | 0.911591      | 0.879377      | 0.661425     | 2.643953     |
+| Decision Tree          | 0.897369      | 0.868293      | 0.829011     | 3.069295     |
+| Ridge                  | 1.000000e+00  | 1.000000e+00  | 3.850307e-06 | 4.267472e-11 |
+| Lasso                  | 1.000000      | 1.000000      | 0.001429     | 0.000006     |
 
   
- ### Conclusion:
-The Decision Tree model demonstrated the best performance with a perfect accuracy score and no difference between its accuracy and cross-validation scores, indicating robust generalization.   
+### Conclusion
 
- **[Notebook](https://github.com/Ayushsharma707/OIBSIP/blob/main/Iris%20Flower%20Classification/Notebook.ipynb)** 
+Based on the evaluation metrics, the **Linear Regression** model demonstrated the best performance with a perfect r² score and minimal MAE and MSE values. Both **Ridge** and **Lasso Regression** also performed exceptionally well, achieving near-perfect scores.   
+
+The **Random Forest** and **Decision Tree** models, while not as accurate as the linear models, still showed good performance, with r² scores above 0.85 and reasonably low MAE and MSE values. These models are robust and can be useful when dealing with more complex and non-linear relationships in the data.   
+
+Overall, the Linear Regression model is recommended for car price prediction due to its high accuracy and consistency across various evaluation metrics. This model can provide valuable insights for car buyers and sellers by estimating the value of a car based on its attributes.      
+
+ **[Notebook](https://github.com/Ayushsharma707/OIBSIP/blob/main/Car%20Price%20Prediction%20With%20Machine%20Learning/car_price_prediction_notebook.ipynb)** 
