@@ -1,5 +1,5 @@
 # Iris Flower Classification      
-<img src="https://i.pinimg.com/564x/20/b5/3a/20b53a896bfb23728ace7672403a4dec.jpg" style="width:100%; height:auto; max-height:200px;">
+<img src="https://camo.githubusercontent.com/0f6cfb90b47d9f277bf85ef7a7aab8c5b6d003ca292d3d54ba871ab8fa54fbf1/68747470733a2f2f692e70696e696d672e636f6d2f353634782f65362f32342f32392f65363234323938613635623432313666653765306666643134623030336332622e6a7067" style="width:80%; height:auto;">
 
 
 ## Project Description:     
