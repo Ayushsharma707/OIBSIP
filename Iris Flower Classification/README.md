@@ -30,7 +30,19 @@ The primary objective of this project is to utilize machine learning techniques 
      Random Forest, SVC, Gaussian Naive Bayes, and K-Nearest Neighbors.          
     * Evaluated the models using accuracy score and cross-validation score.
     * Identified the best-performing model based on the smallest difference between 
-      accuracy score and cross-validation score.   
+      accuracy score and cross-validation score.
+
+## Model Performance Comparison
+
+| MODEL                  | Accuracy Score | CV Score  | Difference |
+|------------------------|----------------|-----------|------------|
+| Logistic Regression    | 1.000000       | 0.860000  | 0.140000   |
+| Decision Tree          | 1.000000       | 1.000000  | 0.000000   |
+| Random Forest          | 1.000000       | 0.993333  | 0.006667   |
+| SVC                    | 0.966667       | 0.946667  | 0.020000   |
+| Gaussian Naive Bayes   | 1.000000       | 0.991667  | 0.008333   |
+| KNeighbors Classifier  | 0.966667       | 0.946667  | 0.020000   |
+
   
  
  
