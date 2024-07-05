@@ -57,4 +57,4 @@ The **Random Forest** and **Decision Tree** models, while not as accurate as the
 
 Overall, the Linear Regression model is recommended for car price prediction due to its high accuracy and consistency across various evaluation metrics. This model can provide valuable insights for car buyers and sellers by estimating the value of a car based on its attributes.      
 
-**Notebook Link:** [Car Price Prediction Notebook](https://github.com/Ayushsharma707/OIBSIP/blob/main/Car%20Price%20Prediction%20With%20Machine%20Learning/car_price_prediction_notebook.ipynb)
+**Notebook Link:** [Here](https://github.com/Ayushsharma707/OIBSIP/blob/main/Car%20Price%20Prediction%20With%20Machine%20Learning/car_price_prediction_notebook.ipynb)
