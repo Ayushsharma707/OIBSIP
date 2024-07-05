@@ -1,5 +1,5 @@
 # Task 3: Sales Prediction Using Python    
-![Description](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40alidu143%2Fbuilding-a-sales-prediction-app-with-streamlit-and-machine-learning-31746625d6ca&psig=AOvVaw12tn15QH2JE0JqFFLLhysr&ust=1720263814688000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJC_1aPgj4cDFQAAAAAdAAAAABAE)  
+![Description](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*OB6ODKHJN_IfS2IC3rIlQg.png)  
 
 **Dataset: [Here](https://www.kaggle.com/datasets/bumba5341/advertisingcsv)** 
 
